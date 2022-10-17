@@ -19,7 +19,7 @@ app.post("/", function (req, res) {
     const firstName = req.body.fname;
     const lastName = req.body.lname;
     const Email = req.body.email;
-    const Data = client.lists.batchListMembers("2f574a0095", {
+    const Data = {
         members: [{
             email_address: Email,
             status: "subcribed",
@@ -28,9 +28,11 @@ app.post("/", function (req, res) {
                 LNAME: lastName,
             }
         }],
-    });
+    };
     const jsonData = JSON.stringify(Data);
-    const url = "https://us12.api.mailchimp.com/3.0/lists/2f574a0095";
+
+    const url = "https://us12.api.mailchimp.com/3.0/lists/2f574a0095&appid=3a1cf7819649872056fa1ab7440b8389-us12";
+
     const options = {
         method: "POST",
         auth: "Dejiobasan:3a1cf7819649872056fa1ab7440b8389-us12"
