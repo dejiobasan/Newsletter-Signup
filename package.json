@@ -1,0 +1,19 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "A newsletter website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dejiobasan/Newsletter-Signup.git"
+  },
+  "author": "Ayodeji Obasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dejiobasan/Newsletter-Signup/issues"
+  },
+  "homepage": "https://github.com/dejiobasan/Newsletter-Signup#readme"
+}
