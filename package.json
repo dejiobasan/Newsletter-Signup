@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dejiobasan/Newsletter-Signup/issues"
   },
-  "homepage": "https://github.com/dejiobasan/Newsletter-Signup#readme"
+  "homepage": "https://github.com/dejiobasan/Newsletter-Signup#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
